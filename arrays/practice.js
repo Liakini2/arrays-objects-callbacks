@@ -123,7 +123,19 @@ var numbersArray = [1,2,34,54,55,34,32,11,19,17,54,66,13];
   and the second item in the array being the odds array (all the odd values from numbersArray).
 */
 
-//Code Here
+const divider = (numbersArray) =>{
+  let evens = []
+  let odds = []
+  let arr = [evens, odds]
+    for (let i = 0; i < numbersArray.length; i++){
+      if (array[i] % 2 === 0){
+        evens.push(numbersArray[i])
+      } else {
+        odds.push(numbersArray[i])
+      }   
+    }
+    return arr
+}
 
 
 
@@ -145,9 +157,10 @@ var getRandomArbitrary = function() {
   If it is, return true, if it's not, return false
 */
 
-//Code Here
+// const finder = (arr) =>{
+//   const randomNumber = getRandomArbitrary()
 
-
+// }
 
 ////////// PROBLEM 8 //////////
 
@@ -200,7 +213,14 @@ var numbers = [5, '9', 16, 19, '25', '34', 48];
   Your output should look like this -> [15, 19, 26, 29, 35, 44, 58]
 */
   
-//Code Here
+// const addTen = (numbers) =>{
+//   let no String = []
+//   for (i = 0; i < numbers.length; i++){
+//     noString.push(parseInt(number[i], 10))
+//     noString[i] += 10
+//   }
+//   return noString
+// }
 
 
 

@@ -108,7 +108,6 @@ contains(names, 'Colt', function(result){
 // Do not edit the code above.
 
 
-
 ////////// PROBLEM 5 //////////
 
 /*
@@ -165,7 +164,10 @@ each(names, function(item, indice){
 */
 
 const getUserById = (users, id, cb) =>{
-  
+  for (i = 0; i < users.length; i++){
+    if (users[i].id === id)
+    cb(users[i])
+  }
 }
 
 // Do not edit the code below.
